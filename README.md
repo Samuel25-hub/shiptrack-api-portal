@@ -22,7 +22,17 @@ This project demonstrates API documentation structure, authentication workflows,
 ## Overview
 
 ShipTrack API allows logistics companies to manage shipments, update delivery statuses, and retrieve shipment information through REST API endpoints.
+---
 
+## API Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[Client Application] --> B[ShipTrack API]
+    B --> C[Authentication Validation]
+    C --> D[Shipment Database]
+    D --> E[JSON Response]
+```
 ---
 
 ## Base URL
