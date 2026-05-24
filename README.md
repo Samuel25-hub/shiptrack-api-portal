@@ -26,12 +26,20 @@ ShipTrack API allows logistics companies to manage shipments, update delivery st
 
 ## API Workflow Diagram
 
-```mermaid
-flowchart TD
-    A[Client Application] --> B[ShipTrack API]
-    B --> C[Authentication Validation]
-    C --> D[Shipment Database]
-    D --> E[JSON Response]
+```text
+Client Application
+        │
+        ▼
+ShipTrack API Endpoint
+        │
+        ▼
+Authentication Validation
+        │
+        ▼
+Shipment Database
+        │
+        ▼
+JSON Response Returned
 ```
 ---
 
