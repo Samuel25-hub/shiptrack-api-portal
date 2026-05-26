@@ -1,78 +1,62 @@
-# ShipTrack API Documentation
+# JD Detector
 
-Developer-focused REST API documentation portal built using Markdown, GitHub, and GitHub Pages.
+JD Detector is a web-based tool designed to analyze job descriptions and help identify recurring skills, technologies, and qualification patterns commonly requested by employers.
 
-This project demonstrates API documentation structure, authentication workflows, endpoint references, JSON request/response formatting, and developer onboarding documentation.
-
----
-
-## Quick Links
-
-- [Authentication](authentication.md)
-- [Getting Started](getting-started.md)
-- [Error Handling](errors.md)
-
-### Endpoints
-- [GET /shipments](endpoints/get-shipments.md)
-- [POST /shipments](endpoints/create-shipment.md)
-- [PUT /shipments/{id}](endpoints/update-shipment.md)
+The project was created to support job seekers by improving visibility into hiring trends and helping users better tailor resumes, portfolios, and technical skill development plans.
 
 ---
 
-## Overview
+## Live Demo
 
-ShipTrack API allows logistics companies to manage shipments, update delivery statuses, and retrieve shipment information through REST API endpoints.
-
-
-## API Workflow Diagram
-
-```text
-Client Application
-        │
-        ▼
-ShipTrack API Endpoint
-        │
-        ▼
-Authentication Validation
-        │
-        ▼
-Shipment Database
-        │
-        ▼
-JSON Response Returned
-```
----
-
-## Base URL
-
-```text
-https://api.shiptrack.com/v1
-```
+https://jd-detector.vercel.app/
 
 ---
 
-## Authentication
+## Features
 
-All API requests require Bearer Token authentication.
-
-### Example
-
-```text
-Authorization: Bearer YOUR_API_KEY
-```
+- Analyze job description text
+- Detect recurring technical skills and keywords
+- Identify common qualification trends
+- Highlight relevant technologies and tools
+- Simple browser-based interface
 
 ---
 
-## Available Endpoints
+## Technologies Used
 
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | [/shipments](endpoints/get-shipments.md) | Retrieve all shipments |
-| POST | [/shipments](endpoints/create-shipment.md) | Create shipment |
-| PUT | [/shipments/{id}](endpoints/update-shipment.md) | Update shipment |
+- HTML
+- CSS
+- JavaScript
+- Vercel Deployment
 
 ---
 
-## Response Format
+## Why I Built This
 
-All responses are returned in JSON format.
+As a Technical Communication graduate entering the modern job market, I wanted to better understand how employers structure technical job descriptions and which skills appear most frequently across technical documentation, developer documentation, and UX-focused communication roles.
+
+This project also helped me strengthen my experience with:
+- technical problem-solving
+- documentation thinking
+- frontend development fundamentals
+- deployment workflows
+- and user-focused tool design.
+
+---
+
+## Future Improvements
+
+- AI-assisted keyword analysis
+- Resume-to-job-description matching
+- Skills gap recommendations
+- Exportable reports
+- Improved data visualization
+
+---
+
+## Author
+
+Samuel Owusu
+
+GitHub: https://github.com/Samuel25-hub
+
